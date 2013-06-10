@@ -21,7 +21,7 @@ and default data is Japanese national holidays.
 
 * api/holidays/list/DATE1/DATE2 : Get holidays list
 
-  http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31
+  e.g.) http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31
 
   (permanent API url is http://localhost:3000/api/v1/holidays/list/2013-01-01/2013-12-31)
 
@@ -29,15 +29,15 @@ and default data is Japanese national holidays.
 
   You can get XML format list following.
 
-  http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.xml
+  e.g.) http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.xml
 
   And! you can get .cal.dat[http://unicorn.us.com/cal.html] format list following.
   
-  http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.caldat
+  e.g.) http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.caldat
 
 * api/holidays/is_holiday/DATA1 : Check present day is holiday?
 
-  http://localhost:3000/api/holidays/is_holiday/2013-01-01
+  e.g.) http://localhost:3000/api/holidays/is_holiday/2013-01-01
 
   (permanent API url is http://localhost:3000/api/v1/holidays/is_holiday/2013-01-01)
 
