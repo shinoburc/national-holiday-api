@@ -4,16 +4,19 @@ Manage national holidays and provide web APIs.
 
 == Requirements
 
+* rails[http://rubyonrails.org]
 * depend on rails_admin[https://github.com/sferik/rails_admin] packages
 * PostgreSQL (change yourself easier)
   <tt>sudo apt-get install libpq-dev</tt>
 
 == Getting Started
 
+- checkout <tt>git clone git://github.com/shinoburc/national-holiday-api.git</tt>
 - install gems <tt>bundle install</tt>
 - DB Setup <tt>rake db:setup</tt>
 - Run rails server <tt>rails s</tt>
 - Go to http://localhost:3000
+
 default username and password is admin@local.host/caladmin.
 and default data is Japanese national holidays.
 
