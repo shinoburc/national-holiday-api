@@ -27,7 +27,9 @@ module Api
         Timeliness.default_timezone = :current
         date = Timeliness.parse(params[:date], :date)
 
-        if !date.nil? and Holiday.count(:conditions => ["date = ?", date]) == 0
+        logger.debug(date)
+
+        if !date.nil? and Holiday.count(:conditions => ["date = ?", date.to_date.to_s]) == 0
           result = false
         else
           result = true
