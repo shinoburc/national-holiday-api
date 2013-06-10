@@ -23,7 +23,7 @@ and default data is Japanese national holidays.
 
   e.g.) http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31
 
-  (permanent API url is http://localhost:3000/api/v1/holidays/list/2013-01-01/2013-12-31)
+  (permanent API url is http://localhost:3000/api/v1/holidays/list/)
 
   return value is holidays list formatting JSON in 2013.
 
@@ -39,6 +39,6 @@ and default data is Japanese national holidays.
 
   e.g.) http://localhost:3000/api/holidays/is_holiday/2013-01-01
 
-  (permanent API url is http://localhost:3000/api/v1/holidays/is_holiday/2013-01-01)
+  (permanent API url is http://localhost:3000/api/v1/holidays/is_holiday/)
 
   return true or false.
