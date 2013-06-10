@@ -17,7 +17,7 @@ Manage national holidays and provide web APIs.
 default username and password is admin@local.host/caladmin.
 and default data is Japanese national holidays.
 
-== APIS
+== APIs
 
 * api/holidays/list/DATE1/DATE2 : Get holidays list
 
