@@ -10,24 +10,20 @@ Manage national holidays and provide web APIs.
 
 == Getting Started
 
-- install gems
-<tt>bundle install</tt>
-
-- DB Setup
-<tt>rake db:setup</tt>
-
-- Run rails server
-<tt>rails s</tt>
-
+- install gems <tt>bundle install</tt>
+- DB Setup <tt>rake db:setup</tt>
+- Run rails server <tt>rails s</tt>
 - Go to http://localhost:3000
-default username and password is admin@localhost/caladmin.
+default username and password is admin@local.host/caladmin.
+and default data is Japanese national holidays.
 
 == APIS
 
 * api/holidays/list/DATE1/DATE2 : Get holidays list
 
   http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31
-  (permanent API is http://localhost:3000/api/v1/holidays/list/2013-01-01/2013-12-31)
+
+  (permanent API url is http://localhost:3000/api/v1/holidays/list/2013-01-01/2013-12-31)
 
   return value is holidays list formatting JSON in 2013.
 
@@ -35,13 +31,14 @@ default username and password is admin@localhost/caladmin.
 
   http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.xml
 
-  And! you can get <a href="http://unicorn.us.com/cal.html" title="cal">.cal.dat</a> format list following.
+  And! you can get .cal.dat[http://unicorn.us.com/cal.html] format list following.
   
   http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.caldat
 
 * api/holidays/is_holiday/DATA1 : Check present day is holiday?
 
   http://localhost:3000/api/holidays/is_holiday/2013-01-01
-  (permanent API is http://localhost:3000/api/v1/holidays/is_holiday/2013-01-01)
+
+  (permanent API url is http://localhost:3000/api/v1/holidays/is_holiday/2013-01-01)
 
   return true or false.
