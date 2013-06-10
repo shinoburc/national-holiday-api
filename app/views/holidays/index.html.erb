@@ -1,0 +1,26 @@
+<h1>Listing holidays</h1>
+
+<%= paginate @holidays %>
+
+<%= form_tag :holidays do %>
+  <%= select_year(Date.today, :start_year => 1948, :end_year => 2150, :field_name => 'year_condition', :include_blank => true) %>
+  <%= submit_tag "In year"  %>
+<% end %>
+
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Date</th>
+    <th></th>
+  </tr>
+
+<% @holidays.each do |holiday| %>
+  <tr>
+    <td><%= holiday.name %></td>
+    <td><%= holiday.date %></td>
+    <td><%= link_to 'Show', holiday %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
