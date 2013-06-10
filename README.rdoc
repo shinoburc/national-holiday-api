@@ -12,7 +12,7 @@ Manage national holidays and provide web APIs.
 == Getting Started
 
 - checkout <tt>git clone git://github.com/shinoburc/national-holiday-api.git</tt>
-- install gems <tt>bundle install</tt>
+- install gems <tt>cd national-holiday-api; bundle install</tt>
 - DB Setup <tt>rake db:setup</tt>
 - Run rails server <tt>rails s</tt>
 - Go to http://localhost:3000
