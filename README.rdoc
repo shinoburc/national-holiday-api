@@ -28,13 +28,13 @@ and default data is Japanese national holidays.
 
   (permanent API url is http://localhost:3000/api/v1/holidays/list/)
 
-  return value is holidays list formatting JSON in 2013.
+  return value is holidays list as JSON in 2013.
 
-  You can get XML format list following.
+  You can get list as XML following.
 
   e.g.) http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.xml
 
-  And! you can get .cal.dat[http://unicorn.us.com/cal.html] format list following.
+  And! you can get list as .cal.dat[http://unicorn.us.com/cal.html] format following.
   
   e.g.) http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.caldat
 
