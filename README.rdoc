@@ -10,16 +10,16 @@ Manage national holidays and provide web APIs.
 
 == Getting Started
 
-1. install gems
+- install gems
 <tt>bundle install</tt>
 
-2. DB Setup
+- DB Setup
 <tt>rake db:setup</tt>
 
-3. Run rails server
+- Run rails server
 <tt>rails s</tt>
 
-3. Go to http://localhost:3000
+- Go to http://localhost:3000
 default username and password is admin@localhost/caladmin.
 
 == APIS
