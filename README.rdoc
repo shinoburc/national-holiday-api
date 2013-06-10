@@ -4,27 +4,27 @@ Manage national holidays and provide web APIs.
 
 == Requirements
 
-* depend on <a href="https://github.com/sferik/rails_admin" title="rails_admin">rails_admin</a> packages
+* depend on rails_admin[https://github.com/sferik/rails_admin] packages
 * PostgreSQL (change yourself easier)
   <tt>sudo apt-get install libpq-dev</tt>
 
 == Getting Started
 
 1. install gems
-  <tt>bundle install</tt>
+<tt>bundle install</tt>
 
 2. DB Setup
-  <tt>rake db:setup</tt>
+<tt>rake db:setup</tt>
 
 3. Run rails server
-  <tt>rails s</tt>
+<tt>rails s</tt>
 
 3. Go to http://localhost:3000
-  default username and password is admin@localhost/caladmin.
+default username and password is admin@localhost/caladmin.
 
 == APIS
 
-* Get holidays list
+* api/holidays/list/DATE1/DATE2 : Get holidays list
 
   http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31
   (permanent API is http://localhost:3000/api/v1/holidays/list/2013-01-01/2013-12-31)
@@ -39,7 +39,7 @@ Manage national holidays and provide web APIs.
   
   http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.caldat
 
-* Check present day is holiday?
+* api/holidays/is_holiday/DATA1 : Check present day is holiday?
 
   http://localhost:3000/api/holidays/is_holiday/2013-01-01
   (permanent API is http://localhost:3000/api/v1/holidays/is_holiday/2013-01-01)
