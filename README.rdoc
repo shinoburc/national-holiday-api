@@ -18,11 +18,11 @@ Manage national holidays and provide web APIs.
 - Go to http://localhost:3000
 
 default username and password is admin@local.host/caladmin.
-and default data is Japanese national holidays.
+and default seed.rb data is Japanese national holidays.
 
 == APIs
 
-* api/holidays/list/DATE1/DATE2 : Get holidays list
+* api/holidays/list/DATE1/DATE2 : Get holidays list between DATE1 and DATE2
 
   e.g.) http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31
 
@@ -38,7 +38,7 @@ and default data is Japanese national holidays.
   
   e.g.) http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.caldat
 
-* api/holidays/is_holiday/DATA1 : Check present day is holiday?
+* api/holidays/is_holiday/DATE1 : Check DATE1 is holiday?
 
   e.g.) http://localhost:3000/api/holidays/is_holiday/2013-01-01
 
