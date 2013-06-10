@@ -2,6 +2,8 @@
 
 Manage national holidays and provide web APIs.
 
+Japanse official page is here[http://dandydot.dyndns.org:8080/dokuwiki/doku.php?id=software:national-holiday-api].
+
 == Requirements
 
 * rails[http://rubyonrails.org]
