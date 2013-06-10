@@ -2,7 +2,7 @@
 
 Manage national holidays and provide web APIs.
 
-national-holiday-api Japanse official site is here[http://dandydot.dyndns.org:8080/dokuwiki/doku.php?id=software:national-holiday-api].
+national-holiday-api Japanse official site is here[http://dandydot.dyndns.org/software].
 
 == Requirements
 
