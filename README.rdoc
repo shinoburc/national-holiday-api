@@ -45,3 +45,9 @@ and default data is Japanese national holidays.
   (permanent API url is http://localhost:3000/api/v1/holidays/is_holiday/)
 
   return true or false.
+
+== APIs demo
+
+* http://dandydot.dyndns.org:3001/api/holidays/list/2013-01-01/2013-12-31
+
+* http://dandydot.dyndns.org:3001/api/holidays/is_holiday/2013-01-01
