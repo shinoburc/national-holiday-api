@@ -36,7 +36,7 @@ First of all, You have to change admin password in Administration.
 
 == APIs
 
-* api/holidays/list/DATE1/DATE2 : Get holidays list between DATE1 and DATE2
+* <tt>api/holidays/list/DATE1/DATE2</tt> : Get holidays list between DATE1 and DATE2
 
   e.g.) http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31
 
@@ -52,7 +52,7 @@ First of all, You have to change admin password in Administration.
   
   e.g.) http://localhost:3000/api/holidays/list/2013-01-01/2013-12-31.caldat
 
-* api/holidays/is_holiday/DATE1 : Check DATE1 is holiday?
+* <tt>api/holidays/is_holiday/DATE1</tt> : Check DATE1 is holiday?
 
   e.g.) http://localhost:3000/api/holidays/is_holiday/2013-01-01
 
