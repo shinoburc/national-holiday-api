@@ -22,6 +22,18 @@ national-holiday-api Japanse official site is here[http://dandydot.dyndns.org/so
 default username and password is admin@local.host/caladmin.
 and default seed.rb data is Japanese national holidays.
 
+== for heroku
+
+- checkout <tt>git clone git://github.com/shinoburc/national-holiday-api.git</tt>
+- <tt>cd national-holiday-api; heroku create YOUR_APP_NAME</tt>
+- <tt>git push heroku master</tt>
+- <tt>heroku run rake db:setup</tt>
+- Go to http://YOUR_APP_NAME.heroku.com
+
+default username and password is admin@local.host/caladmin.
+
+First of all, You have to change admin password in Administration.
+
 == APIs
 
 * api/holidays/list/DATE1/DATE2 : Get holidays list between DATE1 and DATE2
