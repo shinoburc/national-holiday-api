@@ -62,6 +62,6 @@ First of all, You have to change admin password in Administration.
 
 == APIs demo
 
-* http://dandydot.dyndns.org:3001/api/holidays/list/2013-01-01/2013-12-31
+* http://national-holiday-api.heroku.com/api/holidays/list/2013-01-01/2013-12-31
 
-* http://dandydot.dyndns.org:3001/api/holidays/is_holiday/2013-01-01
+* http://national-holiday-api.heroku.com/api/holidays/is_holiday/2013-01-01
