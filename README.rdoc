@@ -69,3 +69,7 @@ First of all, You have to change admin password in Administration.
 == Top page demo
 
 * http://national-holiday-api.heroku.com
+
+== LICENSE
+
+GNU GPLv3.
